@@ -5,5 +5,6 @@ export default {
   install (Vue) {
     Vue.component('Grid', Grid)
     Vue.component('GridItem', GridItem)
+    console.log('GridItem loaded')
   }
 }

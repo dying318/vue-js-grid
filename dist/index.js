@@ -479,7 +479,8 @@
         var _Grid = __webpack_require__(4), _Grid2 = _interopRequireDefault(_Grid), _GridItem = __webpack_require__(0), _GridItem2 = _interopRequireDefault(_GridItem);
         exports.default = {
             install: function(Vue) {
-                Vue.component("Grid", _Grid2.default), Vue.component("GridItem", _GridItem2.default);
+                Vue.component("Grid", _Grid2.default), Vue.component("GridItem", _GridItem2.default), 
+                console.log("GridItem loaded");
             }
         };
     }, function(module, exports, __webpack_require__) {
