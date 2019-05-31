@@ -1,7 +1,7 @@
 {
   "name": "vue-grid-uploader",
   "description": "Draggable file uploader, extend from vue-js-grid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "dying318 <dying318@gmail.com>",
   "private": false,
   "scripts": {

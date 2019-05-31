@@ -31,8 +31,12 @@
             return __webpack_require__.d(getter, "a", getter), getter;
         }, __webpack_require__.o = function(object, property) {
             return Object.prototype.hasOwnProperty.call(object, property);
-        }, __webpack_require__.p = "/dist/", __webpack_require__(__webpack_require__.s = 6);
-    }([ function(module, exports) {
+        }, __webpack_require__.p = "/dist/", __webpack_require__(__webpack_require__.s = 7);
+    }([ function(module, exports, __webpack_require__) {
+        __webpack_require__(14);
+        var Component = __webpack_require__(2)(__webpack_require__(6), __webpack_require__(12), null, null);
+        module.exports = Component.exports;
+    }, function(module, exports) {
         module.exports = function() {
             var list = [];
             return list.toString = function() {
@@ -164,7 +168,7 @@
         }();
     }, function(module, exports, __webpack_require__) {
         __webpack_require__(13);
-        var Component = __webpack_require__(1)(__webpack_require__(4), __webpack_require__(11), null, null);
+        var Component = __webpack_require__(2)(__webpack_require__(5), __webpack_require__(11), null, null);
         module.exports = Component.exports;
     }, function(module, exports, __webpack_require__) {
         "use strict";
@@ -182,7 +186,7 @@
                 for (var key in source) Object.prototype.hasOwnProperty.call(source, key) && (target[key] = source[key]);
             }
             return target;
-        }, _window_size = __webpack_require__(7), _window_size2 = _interopRequireDefault(_window_size), _GridItem = __webpack_require__(10), _GridItem2 = _interopRequireDefault(_GridItem);
+        }, _window_size = __webpack_require__(8), _window_size2 = _interopRequireDefault(_window_size), _GridItem = __webpack_require__(0), _GridItem2 = _interopRequireDefault(_GridItem);
         exports.default = {
             name: "Grid",
             mixins: [ _window_size2.default ],
@@ -464,17 +468,18 @@
         };
     }, function(module, exports, __webpack_require__) {
         "use strict";
-        Object.defineProperty(exports, "__esModule", {
-            value: !0
-        });
-        var _Grid = __webpack_require__(3), _Grid2 = function(obj) {
+        function _interopRequireDefault(obj) {
             return obj && obj.__esModule ? obj : {
                 default: obj
             };
-        }(_Grid);
+        }
+        Object.defineProperty(exports, "__esModule", {
+            value: !0
+        });
+        var _Grid = __webpack_require__(4), _Grid2 = _interopRequireDefault(_Grid), _GridItem = __webpack_require__(0), _GridItem2 = _interopRequireDefault(_GridItem);
         exports.default = {
             install: function(Vue) {
-                Vue.component("Grid", _Grid2.default);
+                Vue.component("Grid", _Grid2.default), Vue.component("GridItem", _GridItem2.default);
             }
         };
     }, function(module, exports, __webpack_require__) {
@@ -504,13 +509,9 @@
             }
         };
     }, function(module, exports, __webpack_require__) {
-        exports = module.exports = __webpack_require__(0)(), exports.push([ module.i, ".v-grid{display:block;position:relative;width:100%}", "" ]);
+        exports = module.exports = __webpack_require__(1)(), exports.push([ module.i, ".v-grid{display:block;position:relative;width:100%}", "" ]);
     }, function(module, exports, __webpack_require__) {
-        exports = module.exports = __webpack_require__(0)(), exports.push([ module.i, ".v-grid-item-wrapper{display:block;position:absolute;box-sizing:border-box;left:0;top:0;user-select:none;transform:translateZ(0);z-index:1}.v-grid-item-animate{transition:transform .8s ease}", "" ]);
-    }, function(module, exports, __webpack_require__) {
-        __webpack_require__(14);
-        var Component = __webpack_require__(1)(__webpack_require__(5), __webpack_require__(12), null, null);
-        module.exports = Component.exports;
+        exports = module.exports = __webpack_require__(1)(), exports.push([ module.i, ".v-grid-item-wrapper{display:block;position:absolute;box-sizing:border-box;left:0;top:0;user-select:none;transform:translateZ(0);z-index:1}.v-grid-item-animate{transition:transform .8s ease}", "" ]);
     }, function(module, exports) {
         module.exports = {
             render: function() {
@@ -569,13 +570,13 @@
             staticRenderFns: []
         };
     }, function(module, exports, __webpack_require__) {
-        var content = __webpack_require__(8);
-        "string" == typeof content && (content = [ [ module.i, content, "" ] ]), content.locals && (module.exports = content.locals);
-        __webpack_require__(2)("cc3a2334", content, !0);
-    }, function(module, exports, __webpack_require__) {
         var content = __webpack_require__(9);
         "string" == typeof content && (content = [ [ module.i, content, "" ] ]), content.locals && (module.exports = content.locals);
-        __webpack_require__(2)("a622b946", content, !0);
+        __webpack_require__(3)("cc3a2334", content, !0);
+    }, function(module, exports, __webpack_require__) {
+        var content = __webpack_require__(10);
+        "string" == typeof content && (content = [ [ module.i, content, "" ] ]), content.locals && (module.exports = content.locals);
+        __webpack_require__(3)("a622b946", content, !0);
     }, function(module, exports) {
         module.exports = function(parentId, list) {
             for (var styles = [], newStyles = {}, i = 0; i < list.length; i++) {
