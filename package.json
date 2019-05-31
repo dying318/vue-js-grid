@@ -1,8 +1,8 @@
 {
-  "name": "vue-js-grid",
-  "description": "Vue.js responsive grid plugin",
+  "name": "vue-grid-uploader",
+  "description": "Draggable file uploader, extend from vue-js-grid",
   "version": "1.0.1",
-  "author": "euvl <yev.vlasenko@gmail.com>",
+  "author": "dying318 <dying318@gmail.com>",
   "private": false,
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
@@ -10,13 +10,13 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/euvl/vue-js-grid.git"
+    "url": "https://github.com/dying318/vue-js-grid.git"
   },
   "bugs": {
-    "url": "https://github.com/euvl/vue-js-grid/issues"
+    "url": "https://github.com/dying318/vue-js-grid/issues"
   },
   "keywords": [
-    "vue"
+    "vue grid uploader"
   ],
   "devDependencies": {
     "babel-core": "^6.0.0",

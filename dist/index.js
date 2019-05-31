@@ -546,7 +546,7 @@
                             _vm.removeItem(v);
                         }
                     }) ], 2);
-                }));
+                }), 1);
             },
             staticRenderFns: []
         };
@@ -571,11 +571,11 @@
     }, function(module, exports, __webpack_require__) {
         var content = __webpack_require__(8);
         "string" == typeof content && (content = [ [ module.i, content, "" ] ]), content.locals && (module.exports = content.locals);
-        __webpack_require__(2)("105852af", content, !0);
+        __webpack_require__(2)("cc3a2334", content, !0);
     }, function(module, exports, __webpack_require__) {
         var content = __webpack_require__(9);
         "string" == typeof content && (content = [ [ module.i, content, "" ] ]), content.locals && (module.exports = content.locals);
-        __webpack_require__(2)("38de0bc4", content, !0);
+        __webpack_require__(2)("a622b946", content, !0);
     }, function(module, exports) {
         module.exports = function(parentId, list) {
             for (var styles = [], newStyles = {}, i = 0; i < list.length; i++) {
